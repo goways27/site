@@ -1,0 +1,29 @@
+a{
+  color:blue;
+  text-decoration: none;
+}
+h1{
+  font-size:30px;
+  border:1px solid gray;
+  width:750px;
+  padding:20px;
+  margin-bottom:60px;
+}
+#contents{
+  border-top:1px solid red;
+  border-bottom:1px solid red;
+  width:650px;
+}
+@media(max-width:850px){
+  h1{
+    font-size:30px;
+    border:1px solid gray;
+    width:420px;
+    padding:20px;
+    margin-bottom:60px;
+  }
+  #contents{
+    border-top:1px solid red;
+    border-bottom:1px solid red;
+    width:300px;
+}
